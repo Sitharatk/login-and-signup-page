@@ -1,0 +1,130 @@
+body{
+    height: 145vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+   
+   
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvLXqNTPjiC9h8xh-XwYLOR80IHlVf2CZdCg&s);
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+    padding: 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    */
+    text-align: center;
+    padding-left: 25%;
+} 
+
+.top{
+    text-align: right;
+    /* padding-right: 30px; */
+    
+ 
+}
+.signup-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbtBvb65jlefQl1LkE6Wah97-ShrztzO6tQ&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 120vh;
+    background-color: aquamarine;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.8);
+   
+    /* padding-bottom: 20px; */
+ 
+    
+}
+h1{
+    padding-top: 20px;
+    font-size: 600;
+    
+}
+.signup-form{
+    gap: 20px;
+    /* text-align: left; */
+    /* padding-left: 8%; */
+}
+.signup-container .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    padding-left: 13%;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    width: 150px;
+    text-align: right;
+    /* margin-right: 5px; */
+}
+.form-group input{
+    width:190px; 
+    height: 5vh;
+    margin: 8px; 
+    
+    /* border: none; */
+    border-bottom: 2px solid black !important; 
+    background-color: rgba(0, 0, 0, 0); 
+    color: black; 
+    font-size: 15px;
+    border-radius: 4px;
+    padding-right: 30px;
+}
+button{
+     padding: 10px 40px ; 
+ 
+    background-color: #141416;
+    color: rgb(226, 223, 223);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 30%;
+    
+}
+button:hover {
+    background-color: #7c5454;
+}
+
+
+.signup-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.signup-button a{
+    text-decoration: none;
+}
+
+.email-button {
+    background-color: #131313; 
+    width: auto;
+}
+
+.facebook-button {
+    background-color: #111111; 
+    width: auto;
+}
+
+.google-button {
+    background-color: #0f0f0f; 
+    width: auto;
+}
+
